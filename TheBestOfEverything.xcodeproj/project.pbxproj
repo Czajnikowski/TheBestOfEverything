@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE71FDB82270ABE5004B960C /* TheBestOfEverything.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBestOfEverything.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE71FDB82270ABE5004B960C /* InterfaceBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterfaceBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE71FDBB2270ABE5004B960C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE71FDBD2270ABE5004B960C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE71FDC02270ABE5004B960C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		AE71FDAF2270ABE5004B960C = {
 			isa = PBXGroup;
 			children = (
-				AE71FDBA2270ABE5004B960C /* TheBestOfEverything */,
+				AE71FDBA2270ABE5004B960C /* InterfaceBuilder */,
 				AE71FDB92270ABE5004B960C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		AE71FDB92270ABE5004B960C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE71FDB82270ABE5004B960C /* TheBestOfEverything.app */,
+				AE71FDB82270ABE5004B960C /* InterfaceBuilder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE71FDBA2270ABE5004B960C /* TheBestOfEverything */ = {
+		AE71FDBA2270ABE5004B960C /* InterfaceBuilder */ = {
 			isa = PBXGroup;
 			children = (
 				AE71FDBB2270ABE5004B960C /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				AE71FDC42270ABE8004B960C /* LaunchScreen.storyboard */,
 				AE71FDC72270ABE8004B960C /* Info.plist */,
 			);
-			path = TheBestOfEverything;
+			path = InterfaceBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE71FDB72270ABE5004B960C /* TheBestOfEverything */ = {
+		AE71FDB72270ABE5004B960C /* InterfaceBuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE71FDCA2270ABE8004B960C /* Build configuration list for PBXNativeTarget "TheBestOfEverything" */;
+			buildConfigurationList = AE71FDCA2270ABE8004B960C /* Build configuration list for PBXNativeTarget "InterfaceBuilder" */;
 			buildPhases = (
 				AE71FDB42270ABE5004B960C /* Sources */,
 				AE71FDB52270ABE5004B960C /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TheBestOfEverything;
+			name = InterfaceBuilder;
 			productName = TheBestOfEverything;
-			productReference = AE71FDB82270ABE5004B960C /* TheBestOfEverything.app */;
+			productReference = AE71FDB82270ABE5004B960C /* InterfaceBuilder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE71FDB72270ABE5004B960C /* TheBestOfEverything */,
+				AE71FDB72270ABE5004B960C /* InterfaceBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +283,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TheBestOfEverything/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterfaceBuilder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mczarnik.TheBestOfEverything;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mczarnik.InterfaceBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +300,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TheBestOfEverything/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterfaceBuilder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mczarnik.TheBestOfEverything;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mczarnik.InterfaceBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE71FDCA2270ABE8004B960C /* Build configuration list for PBXNativeTarget "TheBestOfEverything" */ = {
+		AE71FDCA2270ABE8004B960C /* Build configuration list for PBXNativeTarget "InterfaceBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE71FDCB2270ABE8004B960C /* Debug */,
