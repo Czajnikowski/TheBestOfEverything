@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TheBestOfEverything
+//  InterfaceBuilder
 //
 //  Created by Maciek on 24/04/2019.
 //  Copyright © 2019 mczarnik.com. All rights reserved.
@@ -15,4 +15,3 @@ class ViewController: UIViewController {
         print(somethingTextField.text ?? "Nothing")
     }
 }
-
