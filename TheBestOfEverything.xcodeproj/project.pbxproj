@@ -17,6 +17,7 @@
 		AEA4ECBA2270B51E000A298E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4ECB42270B51E000A298E /* AppDelegate.swift */; };
 		AEA4ECBE2270B6E0000A298E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA4ECBC2270B6E0000A298E /* LaunchScreen.storyboard */; };
 		AEA4ECC02270CD51000A298E /* UIKit+forAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4ECBF2270CD51000A298E /* UIKit+forAutoLayout.swift */; };
+		AEA4ECC52275AF2E000A298E /* ViewController+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4ECC42275AF2E000A298E /* ViewController+Builder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AEA4ECB52270B51E000A298E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEA4ECBD2270B6E0000A298E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA4ECBF2270CD51000A298E /* UIKit+forAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+forAutoLayout.swift"; sourceTree = "<group>"; };
+		AEA4ECC42275AF2E000A298E /* ViewController+Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Builder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AEA4ECAE2270B51E000A298E /* ViewController.swift */,
+				AEA4ECC42275AF2E000A298E /* ViewController+Builder.swift */,
 				AEA4ECBC2270B6E0000A298E /* LaunchScreen.storyboard */,
 				AEA4ECAF2270B51E000A298E /* Assets.xcassets */,
 				AEA4ECB42270B51E000A298E /* AppDelegate.swift */,
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA4ECC52275AF2E000A298E /* ViewController+Builder.swift in Sources */,
 				AEA4ECBA2270B51E000A298E /* AppDelegate.swift in Sources */,
 				AEA4ECC02270CD51000A298E /* UIKit+forAutoLayout.swift in Sources */,
 				AEA4ECB62270B51E000A298E /* ViewController.swift in Sources */,
